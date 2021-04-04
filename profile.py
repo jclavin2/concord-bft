@@ -33,6 +33,7 @@ ifaces = []
 for i in range(1,9,1): #single site mode with 6 replicas 
     node = request.RawPC("node" + str(counter))
     node.disk_image = disk_image
+    node.hardware_type = "m510"
     # Assign to Site One.
     node.Site("Site1")
     # Create iface and assign IP
