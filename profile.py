@@ -18,13 +18,14 @@ request = pc.makeRequestRSpec()
 #disk_image = "urn:publicid:IDN+apt.emulab.net+image+byzantinegridsec-PG0:Prime15.node1" #centos 8 with prime configured for 6 nodes tuned for LAN and with alerts. 
 #disk_image = "urn:publicid:IDN+apt.emulab.net+image+byzantinegridsec-PG0:Prime18.node1" #centos 8 with prime configured for 6 nodes tuned for LAN and with alerts, PLC compiled, batch flags off.
 #disk_image = "urn:publicid:IDN+utah.cloudlab.us+image+byzantinegridsec-PG0:Prime21.node1b:0" #centos 8 with prime configured for 6 nodes tuned for LAN and with alerts, PLC compiled, batch flags off and phases output.
-disk_image = "urn:publicid:IDN+utah.cloudlab.us+image+byzantinegridsec-PG0:sbft_test1" #ubuntu image from Pradeep. 
+#disk_image = "urn:publicid:IDN+utah.cloudlab.us+image+byzantinegridsec-PG0:sbft_test1" #ubuntu image from Pradeep. 
+disk_image = "urn:publicid:IDN+utah.cloudlab.us+image+byzantinegridsec-PG0:SBFT1.node2:0"
 
 
 site_nodes = 3
 
 # Count for node name.
-counter = 1;
+counter = 1S
 
 # ifaces. 
 ifaces = []
