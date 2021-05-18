@@ -26,7 +26,7 @@ disk_image = "urn:publicid:IDN+utah.cloudlab.us+image+byzantinegridsec-PG0:SBFT.
 site_nodes = 3
 
 # Count for node name.
-counter = 1S
+counter = 1
 
 # ifaces. 
 ifaces = []
